@@ -1,0 +1,14 @@
+{
+  "port": 80,
+  "mongooseConnectionString": "mongodb://localhost:27017/boiler",
+  "saltAmount": 11,
+  "secret": "very-secret-phrase",
+  "url": "https://example.com",
+  "secure": false,
+  "overrideInsecureSession": false,
+  "openAuthenticator": {
+    "enabled": true,
+    "client": "boiler",
+    "url": "https://auth.example.com"
+  }
+}
